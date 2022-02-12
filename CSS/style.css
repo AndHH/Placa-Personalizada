@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  text-align: center;
+  background: beige;
+}
+.ContenedorPlaca {
+  margin-top: 25px;
+  width: auto;
+  height: auto;
+  background: rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 2%;
+}
+.PlacaImagen img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5%;
+}
+.Detalles {
+  margin-top: 15px;
+  text-align: left;
+}
+.Detalles h1 {
+  font-size: 25px;
+  text-align: center;
+}
+.Detalles span {
+  font-size: 18px;
+  margin-left: 22px;
+}
+.Linea {
+  display: inline-block;
+  width: 90%;
+  height: 2px;
+  background-color: black;
+}
+.Circulo {
+  height: 10px;
+  width: 10px;
+  margin-top: -5px;
+  margin-left: 20px;
+  background: #000000;
+  border-radius: 50%;
+}
+.TiempoCancion {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.TiempoCancion ul {
+  list-style: none;
+  width: 100%;
+  display: inline-flex;
+  font-size: 20px;
+}
+.Inicio {
+  text-align: right;
+  margin-left: 15px;
+}
+.Espacio {
+  width: 65%;
+}
+.Final {
+  text-align: left;
+}
+.Footer {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.Iconos {
+  display: inline;
+  text-align: center;
+}
+.Iconos i {
+  font-size: 35px;
+  padding: 10px;
+}
+@media (width: 414px) {
+  .ContenedorPlaca {
+    width: 90%;
+  }
+  .PlacaImagen img {
+    width: 325px;
+    height: 325px;
+    object-fit: cover;
+  }
+  .Detalles h1 {
+    font-size: 35px;
+  }
+  .Detalles span {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .Iconos i {
+    font-size: 40px;
+  }
+  .Espacio {
+    width: 72%;
+  }
+}
+@media (width: 412px) {
+  .ContenedorPlaca {
+    margin-top: 50px;
+    width: 90%;
+    height: auto;
+  }
+  .PlacaImagen img {
+    width: 325px;
+    height: 325px;
+    object-fit: cover;
+  }
+  .Detalles h1 {
+    font-size: 35px;
+  }
+  .Detalles span {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .Iconos i {
+    font-size: 40px;
+  }
+}
+@media (width: 390px) {
+  .ContenedorPlaca {
+    width: 90%;
+  }
+  .PlacaImagen img {
+    width: 325px;
+    height: 325px;
+    object-fit: cover;
+  }
+  .Detalles h1 {
+    font-size: 30px;
+  }
+  .Detalles span {
+    font-size: 25px;
+    margin-left: 30px;
+  }
+  .Iconos i {
+    font-size: 40px;
+  }
+  .Espacio {
+    width: 72%;
+  }
+}
+@media (width: 820px) {
+  .ContenedorPlaca {
+    width: 70%;
+  }
+  .PlacaImagen img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+  }
+  .Detalles h1 {
+    font-size: 40px;
+  }
+  .Detalles span {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .Iconos i {
+    font-size: 60px;
+    padding: 10px;
+  }
+  .Espacio {
+    width: 78%;
+  }
+  .Inicio {
+    text-align: right;
+    margin-left: 25px;
+  }
+}
+@media (width: 768px) {
+  .ContenedorPlaca {
+    width: 70%;
+  }
+  .PlacaImagen img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+  }
+  .Detalles h1 {
+    font-size: 40px;
+  }
+  .Detalles span {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .Iconos i {
+    font-size: 60px;
+    padding: 10px;
+  }
+  .Espacio {
+    width: 78%;
+  }
+  .Inicio {
+    text-align: right;
+    margin-left: 25px;
+  }
+}
+@media (min-width: 912px) {
+  .ContenedorPlaca {
+    width: 70%;
+  }
+  .PlacaImagen img {
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+  }
+  .Detalles h1 {
+    font-size: 40px;
+  }
+  .Detalles span {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .Iconos i {
+    font-size: 60px;
+    padding: 10px;
+  }
+  .Espacio {
+    width: 78%;
+  }
+  .Inicio {
+    text-align: right;
+    margin-left: 25px;
+  }
+}
+@media (min-width: 1000px) {
+  .ContenedorPlaca {
+    width: 700px;
+  }
+  .PlacaImagen img {
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+  }
+  .Detalles h1 {
+    font-size: 50px;
+  }
+  .Detalles span {
+    font-size: 35px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+  }
+  .Iconos i {
+    font-size: 80px;
+    padding: 10px;
+  }
+  .Espacio {
+    width: 80%;
+  }
+  .Inicio {
+    text-align: right;
+    margin-left: 35px;
+  }
+  .Linea {
+    display: inline-block;
+    width: 90%;
+    height: 3px;
+    background-color: black;
+  }
+  .Circulo {
+    height: 15px;
+    width: 15px;
+    margin-top: -5px;
+    margin-left: 20px;
+    background: #000000;
+    border-radius: 50%;
+  }
+}
